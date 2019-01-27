@@ -1,0 +1,9 @@
+[Unit]
+Description=Library Service Timer for Jan
+
+[Timer]
+OnCalendar=*-*-* 2:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
